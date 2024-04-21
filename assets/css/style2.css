@@ -4,7 +4,21 @@
 }
 
 .data-text {
-    width: 70%;
+    width: 65%;
     display: inline-block;
-    text-align: left;
+}
+
+.narrow-width {
+    width: 70%;
+    line-height: 1.1;
+    display: inline-block;
+}
+
+.emphasize-green {
+    color: rgb(84, 121, 84);
+    font-weight: heavy;
+}
+
+.emphasize-red {
+    color: rgb(133, 61, 61);
 }
