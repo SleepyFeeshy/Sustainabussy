@@ -9,6 +9,11 @@
 		<title>PH Deforestation and Carbon Emissions Analysis</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/style2.css"/>
 	</head>
@@ -56,42 +61,29 @@
 		<!-- Overview -->
 			<article id="overview" class="wrapper style2">
 				<div class="container">
-					<header>
-						<h2>Overview</h2>
-					</header>
+					<h2>Overview</h2>
 					<div class="row aln-center background">
-						<div class="col-8 col-6-medium col-12-small">
-							<section class="box style1">
-								<p>Climate change is the phenomenon of great shifts in global temperature and weather patterns that occur over long periods of time; however, this rate of change of our climate has been accelerating.</p>
-								<p>One of the leading causes of climate change is the large amount of carbon dioxide emissions that are released into the atmosphere.</p>
-								<p>Additionally, one of the biggest sources of carbon emissions is deforestation.</p>
-							</section>
+						<div class="col-7 col-7-medium col-12-small">
+							<p class="overview p1">Climate change is the phenomenon of great shifts in global temperature and weather patterns that occur over long periods of time; however, this rate of change of our climate has been accelerating.</p>
+						</div>
+						<div class="col-5 col-5-medium col-12-small">
+							<p class="overview p2">One of the leading causes of climate change is the large amount of carbon dioxide emissions that are released into the atmosphere.</p>
+							<p class="overview p2">Additionally, one of the biggest sources of carbon emissions is deforestation.</p>
 						</div>
 					</div>
 
-					<div class="row aln-center">
-						<!-- <div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon featured fa-comments"></span>
-								<h3>Motivation</h3>
-								<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
-							</section>
-						</div> -->
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon solid featured fa-camera-retro"></span>
-								<h3>Problem</h3>
-								<p>The amount of deforestation and tree cover loss that occurs in the Philippines causes a large amount of carbon emissions.</p>
-							</section>
+					<div class="row aln-center background">
+						<div class="col-5 col-6-medium col-12-small">
+							<h2>Problem</h2>
+							<p class="p1">The amount of deforestation and tree cover loss that occurs in the Philippines causes a large amount of carbon emissions.</p>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon featured fa-thumbs-up"></span>
-								<h3>Solution</h3>
-								<p>Our project is an analysis on the correlation between tree cover loss and carbon emissions. This project aims to use data science to gain a better understanding on how to approach the reduction of carbon emissions.<p>
+						<div class="col-7 col-6-medium col-12-small">
+							<h2>Solution</h2>
+								<p class="p1">Our project is an analysis on the correlation between tree cover loss and carbon emissions. This project aims to use data science to gain a better understanding on how to approach the reduction of carbon emissions.<p>	
 							</section>
 						</div>
 					</div>
+					
 					<footer>
 						<!-- <p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
 						<a href="#portfolio" class="button large scrolly">Let's take a look at our data</a> -->
@@ -102,22 +94,20 @@
 			<!-- Background -->
 			<article id="background" class="wrapper style2">
 				<div class="container">
-					<header>
-						<h2>Background</h2>
-					</header>
+					<h2>Background</h2>
 					<div class="row aln-center background">
-						<div class="col-8 col-6-medium col-12-small">
-							<section class="box style1">
-								<p>Climate change is a major environmental problem we face today. For example, recently, scientists have declared March of 2024 to be the warmest March ever recorded globally. Moreover, over seven thousand schools in the Philippines have suspended onsite classes this April due to the extreme heat. Clearly, this phenomenon is a very real and tangible problem that we as Filipinos face in our daily lives.
-								</p>
-								<p>One of the significant causes of this problem is the increasing levels of carbon dioxide in the atmosphere which intensifies the greenhouse effect and in turn, increases the global temperature. Additionally, we know that deforestation is one of the big causes of carbon emissions. This is because trees can absorb carbon dioxide from the air, and store it within their systems, and when they are cut down, a large amount of the carbon they store is released back into the atmosphere.</p>
-								<p>However, we would like to explore this relationship further.</p>
-							</section>
+						<div class="row col-6 col-6-medium col-12-small">
+							<p>Climate change is a major environmental problem we face today. For example, recently, scientists have declared March of 2024 to be the warmest March ever recorded globally. Moreover, over seven thousand schools in the Philippines have suspended onsite classes this April due to the extreme heat. Clearly, this phenomenon is a very real and tangible problem that we as Filipinos face in our daily lives.
+							</p>
 						</div>
+						<div class="row col-6 col-6-medium col-12-small"">
+							<p>One of the significant causes of this problem is the increasing levels of carbon dioxide in the atmosphere which intensifies the greenhouse effect and in turn, increases the global temperature. Additionally, we know that deforestation is one of the big causes of carbon emissions. This is because trees can absorb carbon dioxide from the air, and store it within their systems, and when they are cut down, a large amount of the carbon they store is released back into the atmosphere.</p>
+						</div>
+						<h3>However, we would like to explore this relationship further.</h3>
 					</div>
-					<footer>
-						<p><b>This led us to ask:</b></p>
-						<h2 class="narrow-width">What is the correlation trend of <span class="emphasize-green">tree cover loss</span> with <span class="emphasize-red">carbon emissions</span> in the Philippines?</h2>
+					<footer class="row aln-center">
+						<!-- <p id="block"><b>This led us to ask:</b></p> -->
+						<h2 id="block" class="narrow-width center-text question">What is the correlation trend of <span class="emphasize-green">tree cover loss</span> with <span class="emphasize-red">carbon emissions</span> in the Philippines?</h2>
 						<!-- <p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
 						<a href="#portfolio" class="button large scrolly">Let's take a look at our data</a> -->
 					</footer>
@@ -206,6 +196,8 @@
 				<div class="row aln-center background">
 					<div class="col-12 col-6-medium col-12-small">
 						<section class="box style1">
+							<p>Carbon Emmissions: Mg CO2e/yr</p>
+							<p>Tree Cover Loss: Hectares of tree cover loss per year</p>
 							<img src="graphs/C1.png" class="graph">
 							<img src="graphs/T1.png" class="graph">
 							<img src="graphs/C2.png" class="graph">

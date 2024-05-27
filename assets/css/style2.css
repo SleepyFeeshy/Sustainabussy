@@ -4,10 +4,20 @@ h1, h2 {
     font-size: 3em;
 }
 
-body {
+.container {
     text-align: left;
 }
 
+p {
+    text-align: left;
+    font-family: 'Montserrat', 'Lucida Sans';
+    font-weight: 800;
+    color: #636363;
+}
+
+.center-text {
+    text-align: center;
+}
 /* Nav */
 
 #nav {
@@ -112,7 +122,28 @@ body {
     background-color: #1c1c1c;
 }
 
+/* Overview */
+p.p1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1.7;
+    padding-right: 0.3em;
+}
 
+p.p2 {
+    font-size: 1.1em;
+    margin-top: 0.2em;
+    padding-left: 0.5em;
+    margin-bottom: 1em;
+}
+
+h2.question {
+    margin: auto;
+}
+
+#block {
+    display: inline-block;
+}
 
 /* results */
 .graph {
