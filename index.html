@@ -20,16 +20,16 @@
 	<body class="is-preload">
 
 		<!-- Nav -->
-			<nav id="nav">
-				<ul class="container">
-					<li><a href="#top">Home</a></li>
-					<li><a href="#overview">Overview</a></li>
-					<li><a href="#data">Data</a></li>
-					<li><a href="#methods">Methods</a></li>
-					<li><a href="#results">Results</a></li>
-					<li><a href="#team">Team</a></li>
-				</ul>
-			</nav>
+		<nav id="nav">
+			<ul class="container">
+				<li><a href="#top">Home</a></li>
+				<li><a href="#overview">Overview</a></li>
+				<li><a href="#data">Data</a></li>
+				<li><a href="#methods">Methods</a></li>
+				<li><a href="#results">Results</a></li>
+				<li><a href="#team">Team</a></li>
+			</ul>
+		</nav>
 
 		<!-- Home -->
 			<article id="top" class="wrapper home">
@@ -121,19 +121,25 @@
 						<h2>Hypothesis</h2>
 					</header>
 					<div class="row aln-center background">
-						<div class="col-6 col-6-medium col-12-small">
-							<section class="box style1">
-								<h2 class = "big-text">In finding ways to combat climate change, can a solution be found in the correlation between tree cover loss and carbon emissions?</h2>
-							</section>
+						<div class="col-12 col-6-medium col-12-small">
+							<h3 class = "big-text">In finding ways to combat climate change, can a solution be found in the correlation between tree cover loss and carbon emissions?</h3>
 						</div>
 						<div class="col-6 col-6-medium col-12-small">
 							<section class="box style1">
 								<h3>Null Hypothesis</h3>
 								<p>There is no difference in the annual level of carbon emissions experienced by the Philippines and by each province based on the amount of tree cover loss they experienced.</p>
+							</section>
+						</div>
+						<div class="col-6 col-6-medium col-12-small">
+							<section class="box style1">
 								<h3>Alternative Hypothesis</h3>
 								<p>The annual level of carbon emissions experienced by the Philippines and by each province is higher proportional to the amount of tree cover loss experienced.</p>
+							</section>
+						</div>
+						<div class="col-12 col-12-medium col-12-small">
+							<section class="box style1">
 								<h3>Action Plan</h3>
-								<p>Analyze the correlation between tree coverage loss and levels of carbon emissions.</p>
+								<p class="center-text">Analyze the correlation between tree coverage loss and levels of carbon emissions.</p>
 							</section>
 						</div>
 					</div>
@@ -178,7 +184,8 @@
 							<h3>Regression</h3>
 							<p>To measure the correlation between the tree cover loss and carbon emission, Pearson correlation coefficients between were calculated tree cover loss in the provinces in the Philippines and carbon emission in the years 2001-2023.</p>
 							<h3>Hypothesis Testing</h3>
-							<p>To test the hypothesis, a one-sided t-test was used to test the significance of the regression coefficients between the tree cover loss and carbon emission in the provinces in the Philippines from the years 2001-2023.</p>
+							<p>To test the hypothesis, an F-regression method was used to attain a p-value corresponding to the significance of the tree cover loss variable on the amount of carbon emissions from Philippine provinces from the years 2001-2023. The test returned an F-statistic of 7e+14 and a p-value of 0, which means the null hypothesis stating that the tree cover loss does not affect carbon emissions is rejected.</p>
+							
 						</section>
 					</div>
 				</div>
@@ -206,8 +213,9 @@
 							<img src="graphs/T3.png" class="graph">
 							<img src="graphs/C4.png" class="graph">
 							<img src="graphs/T4.png" class="graph">
-							<h3>Conclusion</h3>
-							<p>The p-value of ____ means that we reject our null hypothesis and accept out alternative hypothesis which states that the annual level of carbon emissions experienced by the Philippines and by each province is higher proportional to the amount of tree cover loss experienced.</p>
+							<h3>Hypothesis Testing</h3>
+							<p>The hypothesis test returned an F-statistic of 7e+14 and a p-value of 0, which means the null hypothesis stating that the tree cover loss does not affect carbon emissions is rejected.</p>
+							<img src = "hypothesis_testing.png">
 						</section>
 					</div>
 				</div>
@@ -225,14 +233,16 @@
 					<div class="row">
 						<div class="col-4">
 							<h4>Lorenzo Gerard Pangan (WFZ)</h4>
-							<p>Hi, I'm Renzo.</p>
+							<p>Hi! I'm Renzo. I'm a third year Comp Sci student from the University of the Philippines. I like programming and I am interested in service software development.
+								I like reading and playing video games. Currently I am also watching Delicious in Dungeon.</p>
 						</div>
 						<div class="col-4">
 							<h4>Zachary Michael Romualdez (WFZ)</h4>
-							<p>I'm Zach and I'm a 3rd year Computer Science student in UP Diliman.</p> 
+							<p>I'm Zach and I'm a 3rd year Computer Science student in UP Diliman. I aspire to become a web developer in the future. I have a strong interest in music and I enjoy performing in gigs.</p> 
 						</div>
 						<div class="col-4">
 							<h4>Roberto Joaquin Santos (WFZ)</h4>
+							<p>Hi! I'm Robbie and I'm in a 3rd Yr Computer Science student from the University of the Philippines Diliman. I'm passionate about coding and am looking into different aspects of programming, one of them being game development. I love playing RTS, FPS and survival games. I think more people should watch Frieren and Eighty-Six.</p>
 						</div>
 					</div>
 				</div>

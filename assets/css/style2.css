@@ -4,7 +4,7 @@ h1, h2 {
     font-size: 3em;
 }
 
-.container {
+h2 {
     text-align: left;
 }
 
@@ -26,6 +26,7 @@ p {
 
     #nav a{
         color: black;
+        margin: auto;
     }
 
         #nav a:hover {
