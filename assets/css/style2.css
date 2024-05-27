@@ -10,7 +10,7 @@
 
         #nav a:hover {
             color: black;
-            background: hsl(132, 42%, 74%);
+            background: #b2f39b;
         }
 
         #nav a.active {
