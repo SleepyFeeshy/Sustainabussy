@@ -1,3 +1,13 @@
+/* Text */
+h1, h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+}
+
+body {
+    text-align: left;
+}
+
 /* Nav */
 
 #nav {
@@ -48,6 +58,20 @@
     font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
     font-weight:900;
     font-size: 7em;
+    margin-bottom: 0.3em;
+}
+
+.zaloro-subtitle {
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 2em;
+}
+
+.zaloro-name {
+    color: #5de42c;
+    font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
+    font-weight:900;
+    font-size: 7em;
 }
 
 .home p {
@@ -86,4 +110,12 @@
 .wrapper.home {
     background-image: none;
     background-color: #1c1c1c;
+}
+
+
+
+/* results */
+.graph {
+    border-radius: 8px;
+    height: 500px;
 }
