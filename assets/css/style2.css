@@ -20,8 +20,8 @@ p {
 .center-text {
     text-align: center;
 }
-/* Nav */
 
+/* Nav */
 #nav {
     background-color: white;
 }
@@ -153,6 +153,12 @@ h2.question {
     height: 300px;
 }
 
+
+/* problem */
+.hypothesis_box 
+{
+    height: 300px;
+}
 /* results */
 .graph {
     border-radius: 8px;
